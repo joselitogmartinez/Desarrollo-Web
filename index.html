@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PRACTICA HTML</title>
+    <style>
+        table, th, td{
+            border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+    <!--tablas-->
+    <h2>TABLAS</h2>
+    <table style="width: auto;">
+        <tr>
+            <th>columna 1</th>
+            <th>columna 2</th>
+            <th>columna 3</th>
+        </tr>
+        <tr>
+            <td>fila 1</td>
+            <td>fila 1</td>
+            <td>fila 1</td>
+        </tr>
+        <tr>
+            <td>fila 2</td>
+            <td>fila 2</td>
+            <td>fila 2</td>
+        </tr>
+        <tr>
+            <td>fila 3</td>
+            <td>fila 3</td>
+            <td>fila 3</td>
+        </tr>
+    </table>
+
+    <hr>
+    <!--listas-->
+    <H2>LISTAS</H2>
+    <H4>NO ORDENADAS</H4>
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+
+    <H4>ORDENADAS</H4>
+    <OL>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+            <OL>
+                <li>CASO 1</li>
+                <li>CASO 2</li>
+                <li>CASO 3</li>
+            </OL>
+        <li>elemento 4</li>    
+    </OL>
+    <hr>
+    <!--formularios-->
+    <H2>FORMHLARIO</H2>
+    <form  action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" placeholder="escriba aqui"/>
+        <br><br>
+
+        <label for="apellido">apellido</label>
+        <input id="apellido" name="apellido" placeholder="escriba aqui"/>
+        <br><br>
+
+        <label for="contraseña">contraseña</label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="escriba contraseña"/>
+        <br><br>
+
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="hombre" name="marca" placeholder="escriba aqui"/>
+        <br><br>
+
+        <label for="hombre">mujer</label>
+        <input type="radio" id="mujer" name="mujer" placeholder="escriba aqui"/>
+        <br><br>
+
+        <label for="adjuntar">Adjunta PDF de DPI</label>
+        <input type="file" id="adjuntarDPI" name="adjuntarDPI" placeholder="escriba aqui"/>
+
+        <br><br>
+        <label for="comentario">Escribe un comentario</label>
+        <br>
+        <textarea rows="10" cols="50" id="comentario"></textarea>
+        
+        <br><br>
+        <button type="button">Tipo Boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+
+    </form>
+    <hr>
+
+    <!--TITULOS-->
+    <h1>TITULOS (Primer Titulo) </h1>
+    <h2>Segundo Titulo</h2>
+    <h3>Tercer Titulo</h3>
+    <h4>Cuarto Titulo</h4>
+    <h5>Quinto Titulo</h5>
+    <h6>Sexto Titulo</h6>
+    <hr>
+
+    <!--PARRAFOS-->
+    <H2>PARRAFOS</H2>
+    <p>
+        El Lenguaje de Marcado de Hipertexto <span style="color:blue">(HTML)</span> es el código que se utiliza para estructurar y 
+        desplegar una página web y sus contenidos.<br> Por ejemplo, sus contenidos podrían ser párrafos, 
+        una lista con viñetas,<br> o imágenes y tablas de datos.
+    </p>
+    <hr>
+
+    <!--referencias-->
+    <H2>REFERENCIAS</H1>
+    <a target="_blank" href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">Conceptos Basicos de HTML</a>
+    <br>
+    <hr>
+
+    <H2>IMAGENES</H2>
+    <!--iamgenes-->
+    <img src="img/html.png" width="400" height="200"/> 
+    <hr>
+
+</body>
+</html>
